@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h3>Typeof in Javascript</h3>
+        <p id="demo"></p><hr>
+        <h3>Javascript Equal operator</h3>
+        <h5>equal(===)</h5>
+        <p id="demo1"></p>
+        <h5>equal(==)</h5>
+        <p id="demo2"></p><hr>
+        <script>
+            let x="john";
+            let y= new String ("john");
+            document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+            
+            let a="john";
+            let b= new String ("john");
+            document.getElementById("demo1").innerHTML = (a===b);
+            document.getElementById("demo2").innerHTML = (a==b);
+        </script>
+    </body>
+</html>
+

@@ -1,0 +1,9 @@
+Day 3Internship 
+-------------------------------------------
+HTML-form tags
+	input type
+	fieldset
+	legend
+	label
+	checkbox
+	radio

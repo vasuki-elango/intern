@@ -1,0 +1,10 @@
+Intern Day 2
+--------------------------------------------
+table-<th> table heading
+	<tr> table row
+	<td> table data
+class
+id
+padding
+unordered list <ul>
+ordered list <ol> <li> list item  and its types

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DropDown</title>
+        <style>
+            .dropbtn{
+                padding:10px 25px;
+                cursor: pointer;
+                border: none;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            .content a{
+                display: block;
+                text-decoration: none;
+                color: black;
+                padding: 10px 20px;
+                background-color: #aba;
+                width: 100px;
+            }
+            .content{
+                position: absolute;
+                display: none;
+            }
+            .dropdown{
+                display: inline-block;
+                position: relative;
+            }
+            .content a:hover{
+                background-color: azure;
+            }
+            .dropbtn:hover{
+                background-color: blanchedalmond;
+            }
+            .dropdown:hover .content{
+                display: block;
+            }
+            .dropdown:hover .dropbtn{
+                background-color: rgb(125, 179, 126);
+            }
+            .in{
+                border: 1px solid springgreen;
+                color: indianred;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dropdown">
+            <button class="dropbtn">Course</button>
+            <div class="content">
+                <a href="">HTML</a>
+                <a href="">CSS</a>
+                <a href="">JS</a>
+            </div>
+        </div>
+
+        <div class="in">Hello<span>Everyone</span></div>
+        
+    </body>
+</html>

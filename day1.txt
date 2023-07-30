@@ -1,0 +1,11 @@
+Intern Day1
+-------------------------------------
+HTML-Heading tags <h1> to <h6>
+     Paragraph tag <p>
+	anchor tag <a href="">
+	image tag <img src="">
+	css-inline,internal,external
+CSS-border
+	text-align
+	background-color
+	color

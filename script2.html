@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h2>Javascript in body</h2>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <script>
+            let x=5;
+            let y=2;
+            let z=x+y
+            document.getElementById('demo1').innerHTML=z;
+
+            const car=['audi','toyota','saab'];
+            car[0]='ktm';
+            car.push('duke')
+            document.getElementById('demo2').innerHTML=car;
+        </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h2>Javascript in body</h2>
+        <p id="demo"></p>
+        <script>
+            let a=10;
+            {
+                let a=2;
+            }
+            document.getElementById('demo').innerHTML=a;
+        </script>
+    </body>
+</html>

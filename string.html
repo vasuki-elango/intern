@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h3>String joining</h3>
+        <p id="demo4"></p><hr>
+        <h3>Javascript Slice</h3>
+        <small>apple,kiwi,banana</small>
+        <p id="demo2"></p><hr>
+        <h3>Replace In JavaScript</h3>
+        <p id="demo3">please visit Youtube</p>
+        <button onclick="myfunction()">Click me</button>
+        
+        <script>
+            let t1="vasuki";
+            let t2="sathya";
+            document.getElementById('demo4').innerHTML=t1+""+t2;
+
+            let str="apple,kiwi,banana";
+            document.getElementById("demo2").innerHTML =str.slice(2,13);
+
+            function myfunction(){
+                let text=document.getElementById("demo3").innerHTML;
+                document.getElementById("demo3").innerHTML=text.replace("Youtube","W3School");
+
+            }
+        </script>
+    </body>
+</html>

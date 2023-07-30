@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Move</title>
+        <style>
+            div{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                position: relative;
+                animation-name: example;
+                animation-duration:1s;
+                animation-timing-function: ease;
+                animation-iteration-count: infinite;
+                animation-delay: 1s;
+                animation-direction: reverse;
+            }
+            @keyframes example{
+                0% {
+                    background-color: red; 
+                    left: 0px; 
+                    top: 0px;
+                    border-radius: 5px;
+                }
+                25% {
+                    background-color: blue;
+                    left: 200px; 
+                    top: 100px;
+                    border-radius: 15px;
+                }
+                50% {
+                    background-color: pink; 
+                    left: 200px; 
+                    top: 300px;
+                    border-radius: 25px;
+                }
+                75% {
+                    background-color: violet; 
+                    left: 0px; 
+                    top: 200px;
+                    border-radius: 55px;
+                }
+                100% {
+                    background-color: brown; 
+                    left: 0px; 
+                    top: 0px;
+                    border-radius: 75px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Animation</h3>
+        <div></div>
+    </body>
+
+</html>
+

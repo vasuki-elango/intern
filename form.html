@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Form Styles</title>
+
+        <style>
+            body{
+                border: 1px solid rgb(215, 195, 195);
+                border-radius: 5px;
+            }
+            div{
+                background-color: gainsboro;
+            }
+            input[type=text] ,select{
+                width: 50%;
+                border-radius: 5px;
+                border: 1px solid grey;
+                margin: 8px 400px;
+                padding: 12px 5px;
+                outline: none;
+                display: inline-block;
+                box-sizing: border-box;
+            }
+
+            input[type=text]:focus{
+                background-color: lightblue;
+            }
+
+            select{
+                padding: 16px 20px;
+            }
+
+            input[type=submit]{
+                background-color:rgb(19, 169, 219);
+                color: white;
+                height: 30px;
+                width: 150px;
+                border:none;
+                border-radius: 10px;
+                display: block;
+                margin: auto;
+            }
+            input[type=submit]:hover{
+                background-color: white;
+                color: black;
+            }
+
+            textarea{
+                width: 50%;
+                border-radius: 5px;
+                border: 1px solid grey;
+                margin: 8px 400px;
+                padding: 60px 50px;
+                outline: none;
+                display: inline-block;
+                box-sizing: border-box;
+            }
+
+            label{
+                margin: 200px 300px;
+            }
+        </style>
+    </head> 
+    <body>
+        <div>
+            <label id="fname">First Name</label>
+            <input type="text" placeholder="Your Name" id="fname"><br>
+            <label id="lname">Last Name</label>
+            <input type="text" placeholder="Your Name" id="lname"><br>
+            <label>City</label>
+            <select>
+                <option dispaly="hidden">Select your city</option>
+                <option>Virudhungar</option>
+                <option>Madurai</option>
+                <option>Covai</option>
+                <option>Chennai</option>
+            </select><br>
+            <label>Address</label>
+            <textarea placeholder="your address"></textarea><br>
+            <input type="submit" value="sumbit">
+        </div>
+    </body>
+</html>

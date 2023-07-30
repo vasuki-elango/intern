@@ -1,0 +1,50 @@
+table,td,th{
+    border: 2px solid black;
+}th,td{
+    padding: 5px 3px 5px 3px;
+}
+td{
+    text-align: center;
+}
+
+ul.a{
+    list-style-type:circle
+}
+ul.b{
+    list-style-type: square;
+}
+ol.c{
+    list-style-type: lower-roman;
+}
+
+ol.d{
+    list-style-type:decimal;
+}
+
+div{
+    border: 2px solid grey;
+}
+
+span{
+    background-color: beige;
+    color: aqua;
+}
+
+.lang{
+    background-color: rgb(131, 187, 236);
+    margin: 5px;
+    text-align: center;
+    color: blueviolet;
+}
+
+#css{
+    color: black;
+    background-color: rgb(97, 222, 139);
+    border-color: black;
+}
+
+#lorem{
+    color: rgb(224, 87, 162);
+    background-color: blanchedalmond;
+    padding-left: 30px;
+}

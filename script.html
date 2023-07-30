@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript</title>
+    </head>
+    <body>
+        <h2>Conditional</h2>
+        <h4>If Else</h4>
+        <p id="demo1"></p>
+        <h4>If Else..Else if</h4>
+        <p id="demo2"></p>
+        <h4>Switch</h4>
+        <p id="demo3"></p>
+        <script>
+            const x=19;
+            let greeting;
+            if(x<18){
+                greeting="welcome";
+            }
+            else{
+                greeting="Eveyone";
+            }
+            document.getElementById('demo1').innerHTML=greeting;
+
+            let mark=85;
+            let ans;
+            if(mark>=90){
+                ans="A Grade";
+            }
+            else if(mark>=70){
+                ans="B Grade"
+            }
+            else{
+                ans="fail"
+            }
+            document.getElementById('demo2').innerHTML=ans;
+
+            let day;
+            switch(new Date().getDay()){
+                case 0:
+                    day="sunday";
+                    break;
+                case 1:
+                    day="Monday";
+                    break;
+                case 2:
+                    day="Tuesday";
+                    break;
+                case 3:
+                    day="Wedensday";
+                    break;
+                case 4:
+                    day="Thuresday";
+                    break;
+                case 5:
+                    day="friday";
+                    break;
+                case 6:
+                    day="saturday";
+                    break;
+            }
+
+            document.getElementById("demo3").innerHTML= "today" + day;
+        </script>
+    </body>
+</html>
